@@ -4,7 +4,7 @@
 
 MCP is an open protocol that standardizes how AI applications connect to external data sources and tools. Think of it as a USB-C port for AI - one standard interface that works everywhere.
 
-**What makes this list different?** We focus on quality over quantity. Every entry here has been reviewed for active maintenance, working documentation, and real-world utility. If you have used an MCP tool that works well, [contribute it](#contributing).
+**What makes this list different?** We focus on quality over quantity. Every entry here has been reviewed for active maintenance, working documentation, and real-world utility. If you have used an MCP tool that works well, [contribute it](#contributing). Last full review: July 2026.
 
 ---
 
@@ -35,9 +35,7 @@ MCP is an open protocol that standardizes how AI applications connect to externa
 ## Official Resources
 
 - [Model Context Protocol Specification](https://github.com/modelcontextprotocol/modelcontextprotocol) - The official MCP specification and documentation. ![GitHub Repo stars](https://img.shields.io/github/stars/modelcontextprotocol/modelcontextprotocol?style=flat)
-- [MCP Servers](https://github.com/modelcontextprotocol/servers) - Official collection of reference MCP server implementations (filesystem, fetch, git, memory, PostgreSQL, Puppeteer, Slack, Google Drive, and more). ![GitHub Repo stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=flat)
-- [MCP Registry](https://github.com/modelcontextprotocol/registry) - Community-driven registry service for discovering MCP servers. ![GitHub Repo stars](https://img.shields.io/github/stars/modelcontextprotocol/registry?style=flat)
-- [modelcontextprotocol.io](https://modelcontextprotocol.io/) - Official website with documentation, guides, and the protocol specification.
+- [MCP Servers](https://github.com/modelcontextprotocol/servers) - Official collection of reference MCP server implementations (filesystem, fetch, Git, memory, PostgreSQL, Puppeteer, Slack, Google Drive, and more). ![GitHub Repo stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=flat)
 
 ## SDKs and Libraries
 
@@ -50,11 +48,6 @@ MCP is an open protocol that standardizes how AI applications connect to externa
 
 - [mcp-go](https://github.com/mark3labs/mcp-go) - A Go implementation of the Model Context Protocol, enabling seamless integration between LLM applications and external data sources. ![GitHub Repo stars](https://img.shields.io/github/stars/mark3labs/mcp-go?style=flat)
 
-### Scaffolding
-
-- [create-python-server](https://github.com/modelcontextprotocol/create-python-server) - CLI tool to quickly scaffold a new Python MCP server project. ![GitHub Repo stars](https://img.shields.io/github/stars/modelcontextprotocol/create-python-server?style=flat)
-- [create-typescript-server](https://github.com/modelcontextprotocol/create-typescript-server) - CLI tool to scaffold a new TypeScript MCP server project. ![GitHub Repo stars](https://img.shields.io/github/stars/modelcontextprotocol/create-typescript-server?style=flat)
-
 ## Frameworks and Adapters
 
 - [FastMCP (Python)](https://github.com/PrefectHQ/fastmcp) - The fast, Pythonic way to build MCP servers and clients. High-level abstractions that simplify server development significantly. ![GitHub Repo stars](https://img.shields.io/github/stars/PrefectHQ/fastmcp?style=flat)
@@ -65,6 +58,7 @@ MCP is an open protocol that standardizes how AI applications connect to externa
 - [ACI.dev](https://github.com/aipotheosis-labs/aci) - Open-source tool-calling platform connecting 600+ tools into any agentic IDE or custom AI agent through function calling or a unified MCP server. ![GitHub Repo stars](https://img.shields.io/github/stars/aipotheosis-labs/aci?style=flat)
 - [Klavis AI](https://github.com/Klavis-AI/klavis) - MCP integration platform that lets AI agents use tools reliably at scale. ![GitHub Repo stars](https://img.shields.io/github/stars/Klavis-AI/klavis?style=flat)
 - [Activepieces](https://github.com/activepieces/activepieces) - AI workflow automation platform with native MCP support and 400+ integrations. ![GitHub Repo stars](https://img.shields.io/github/stars/activepieces/activepieces?style=flat)
+- [Composio](https://github.com/ComposioHQ/composio) - Tool-use platform with 1000+ toolkits, auth handling, and a unified MCP interface for agents. ![GitHub Repo stars](https://img.shields.io/github/stars/ComposioHQ/composio?style=flat)
 
 ## Server Implementations
 
@@ -91,6 +85,7 @@ MCP is an open protocol that standardizes how AI applications connect to externa
 - [CodeGraphContext](https://github.com/CodeGraphContext/CodeGraphContext) - Indexes local code into a graph database to provide rich context to AI assistants. ![GitHub Repo stars](https://img.shields.io/github/stars/CodeGraphContext/CodeGraphContext?style=flat)
 - [Laravel Boost](https://github.com/laravel/boost) - Laravel-focused MCP server for augmenting AI-powered local development. ![GitHub Repo stars](https://img.shields.io/github/stars/laravel/boost?style=flat)
 - [Godot MCP](https://github.com/Coding-Solo/godot-mcp) - MCP server for interfacing with Godot game engine. Launch the editor, run projects, and capture debug output. ![GitHub Repo stars](https://img.shields.io/github/stars/Coding-Solo/godot-mcp?style=flat)
+- [Codebase Memory MCP](https://github.com/DeusData/codebase-memory-mcp) - High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph for agent context. ![GitHub Repo stars](https://img.shields.io/github/stars/DeusData/codebase-memory-mcp?style=flat)
 - [MCP Server Chart](https://github.com/antvis/mcp-server-chart) - Visualization MCP server with 25+ chart types using AntV. Great for chart generation and data analysis. ![GitHub Repo stars](https://img.shields.io/github/stars/antvis/mcp-server-chart?style=flat)
 - [Magic MCP](https://github.com/21st-dev/magic-mcp) - Like v0 but in your IDE. 21st.dev's MCP server for working with frontend components. ![GitHub Repo stars](https://img.shields.io/github/stars/21st-dev/magic-mcp?style=flat)
 - [Shadcn UI MCP](https://github.com/Jpisnice/shadcn-ui-mcp-server) - MCP server providing context about shadcn/ui component structure, usage, and installation for React, Svelte, Vue, and React Native. ![GitHub Repo stars](https://img.shields.io/github/stars/Jpisnice/shadcn-ui-mcp-server?style=flat)
@@ -107,7 +102,6 @@ MCP is an open protocol that standardizes how AI applications connect to externa
 - [WhatsApp MCP](https://github.com/lharries/whatsapp-mcp) - MCP server for WhatsApp messaging, enabling AI agents to read and send messages. ![GitHub Repo stars](https://img.shields.io/github/stars/lharries/whatsapp-mcp?style=flat)
 - [Gmail MCP](https://github.com/shinzo-labs/gmail-mcp) - MCP implementation for Gmail services. Read, send, search, and manage emails through MCP. ![GitHub Repo stars](https://img.shields.io/github/stars/shinzo-labs/gmail-mcp?style=flat)
 - [Mac Messages MCP](https://github.com/carterlasalle/mac_messages_mcp) - MCP server that interfaces with the macOS Messages (iMessage) database. Query conversations, search messages, handle attachments, and send messages. ![GitHub Repo stars](https://img.shields.io/github/stars/carterlasalle/mac_messages_mcp?style=flat)
-- [Zoom MCP Server](https://github.com/JavaProgrammerLB/zoom-mcp-server) - MCP server for scheduling and managing Zoom meetings through AI agents. ![GitHub Repo stars](https://img.shields.io/github/stars/JavaProgrammerLB/zoom-mcp-server?style=flat)
 
 ### Data and Databases
 
@@ -122,7 +116,7 @@ MCP is an open protocol that standardizes how AI applications connect to externa
 
 ### Documents and Knowledge
 
-- [Kreuzberg](https://github.com/kreuzberg-dev/kreuzberg) - Polyglot document intelligence framework with a Rust core. Extract text, metadata, and structured info from PDFs, Office docs, images, and 91+ formats. Available via CLI, REST API, or MCP server. ![GitHub Repo stars](https://img.shields.io/github/stars/kreuzberg-dev/kreuzberg?style=flat)
+- [Xberg (formerly Kreuzberg)](https://github.com/xberg-io/xberg) - Polyglot document intelligence framework with a Rust core. Extract text, metadata, and structured info from PDFs, Office docs, images, and 91+ formats. Available via CLI, REST API, or MCP server. ![GitHub Repo stars](https://img.shields.io/github/stars/xberg-io/xberg?style=flat)
 - [Skill Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) - Convert documentation websites, GitHub repos, and PDFs into Claude AI skills with automatic conflict detection. ![GitHub Repo stars](https://img.shields.io/github/stars/yusufkaraaslan/Skill_Seekers?style=flat)
 - [MCP Obsidian](https://github.com/MarkusPfundstein/mcp-obsidian) - MCP server that interacts with Obsidian via the REST API community plugin. Search, read, and manage your knowledge base. ![GitHub Repo stars](https://img.shields.io/github/stars/MarkusPfundstein/mcp-obsidian?style=flat)
 
@@ -149,7 +143,7 @@ MCP is an open protocol that standardizes how AI applications connect to externa
 
 - [DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) - MCP server for Claude that provides terminal control, file system search, and diff-based file editing. ![GitHub Repo stars](https://img.shields.io/github/stars/wonderwhy-er/DesktopCommanderMCP?style=flat)
 - [Windows MCP](https://github.com/CursorTouch/Windows-MCP) - MCP server for computer use on Windows. Control GUI applications, take screenshots, and automate desktop workflows. ![GitHub Repo stars](https://img.shields.io/github/stars/CursorTouch/Windows-MCP?style=flat)
-- [Peekaboo](https://github.com/steipete/Peekaboo) - macOS CLI and MCP server that enables AI agents to capture screenshots with optional visual Q&A through local or remote AI models. ![GitHub Repo stars](https://img.shields.io/github/stars/steipete/Peekaboo?style=flat)
+- [Peekaboo](https://github.com/openclaw/Peekaboo) - macOS CLI and MCP server that enables AI agents to capture screenshots with optional visual Q&A through local or remote AI models. ![GitHub Repo stars](https://img.shields.io/github/stars/openclaw/Peekaboo?style=flat)
 - [Context Mode](https://github.com/mksglu/context-mode) - Context window optimization for AI coding agents. Sandboxes tool output for 98% reduction in token usage across 12 platforms. ![GitHub Repo stars](https://img.shields.io/github/stars/mksglu/context-mode?style=flat)
 - [PAL MCP Server](https://github.com/BeehiveInnovations/pal-mcp-server) - Use Claude Code, Gemini CLI, or Codex CLI with any LLM provider (OpenAI, OpenRouter, Azure, Grok, Ollama, etc.). ![GitHub Repo stars](https://img.shields.io/github/stars/BeehiveInnovations/pal-mcp-server?style=flat)
 - [Agent Sandbox](https://github.com/agent-infra/sandbox) - All-in-one sandbox for AI agents combining browser, shell, file, MCP, and VS Code server in a single container. ![GitHub Repo stars](https://img.shields.io/github/stars/agent-infra/sandbox?style=flat)
@@ -168,6 +162,8 @@ These applications natively support MCP as a client, letting you connect MCP ser
 - [Osaurus](https://github.com/osaurus-ai/osaurus) - Native macOS AI agent harness supporting any model, persistent memory, and autonomous execution via MCP. ![GitHub Repo stars](https://img.shields.io/github/stars/osaurus-ai/osaurus?style=flat)
 - [OpenSumi](https://github.com/opensumi/core) - Framework for building AI-native IDE products with MCP client support. ![GitHub Repo stars](https://img.shields.io/github/stars/opensumi/core?style=flat)
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) - Google's open-source AI agent for the terminal with MCP server support. ![GitHub Repo stars](https://img.shields.io/github/stars/google-gemini/gemini-cli?style=flat)
+- [Goose](https://github.com/aaif-goose/goose) - Open-source, extensible AI agent whose extension system is built natively on MCP. ![GitHub Repo stars](https://img.shields.io/github/stars/aaif-goose/goose?style=flat)
+- [LibreChat](https://github.com/danny-avila/LibreChat) - Self-hosted ChatGPT-style interface with agents and MCP server support across major model providers. ![GitHub Repo stars](https://img.shields.io/github/stars/danny-avila/LibreChat?style=flat)
 
 ## Testing and Debugging
 
@@ -177,8 +173,10 @@ These applications natively support MCP as a client, letting you connect MCP ser
 ## Registries and Directories
 
 - [MCP Registry](https://github.com/modelcontextprotocol/registry) - The official community-driven registry for discovering MCP servers. ![GitHub Repo stars](https://img.shields.io/github/stars/modelcontextprotocol/registry?style=flat)
-- [Directories](https://github.com/leerob/directories) - Find rules and MCP servers. Maintained by Lee Robinson (VP of Product at Vercel). ![GitHub Repo stars](https://img.shields.io/github/stars/leerob/directories?style=flat)
+- [Cursor Community Plugins](https://github.com/cursor/community-plugins) - Community directory of plugins, rules, and MCP servers for Cursor (formerly leerob/directories). ![GitHub Repo stars](https://img.shields.io/github/stars/cursor/community-plugins?style=flat)
 - [Smithery](https://smithery.ai/) - A hosted registry and marketplace for MCP servers.
+- [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - The largest community-maintained collection of MCP servers. ![GitHub Repo stars](https://img.shields.io/github/stars/punkpeye/awesome-mcp-servers?style=flat)
+- [Official Claude Plugins](https://github.com/anthropics/claude-plugins-official) - Anthropic-managed directory of Claude Code plugins, many of which bundle MCP servers. ![GitHub Repo stars](https://img.shields.io/github/stars/anthropics/claude-plugins-official?style=flat)
 
 ## Learning Resources
 
@@ -192,9 +190,5 @@ These applications natively support MCP as a client, letting you connect MCP ser
 ## Contributing
 
 Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
-
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work.
