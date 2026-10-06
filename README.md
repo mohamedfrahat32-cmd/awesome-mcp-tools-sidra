@@ -165,6 +165,8 @@ These applications natively support MCP as a client, letting you connect MCP ser
 - [Goose](https://github.com/aaif-goose/goose) - Open-source, extensible AI agent whose extension system is built natively on MCP. ![GitHub Repo stars](https://img.shields.io/github/stars/aaif-goose/goose?style=flat)
 - [LibreChat](https://github.com/danny-avila/LibreChat) - Self-hosted ChatGPT-style interface with agents and MCP server support across major model providers. ![GitHub Repo stars](https://img.shields.io/github/stars/danny-avila/LibreChat?style=flat)
 
+- [SCODE](https://github.com/sidra-ai-development/scode) - Open-source terminal coding runtime with persistent sessions and MCP client support. ![GitHub Repo stars](https://img.shields.io/github/stars/sidra-ai-development/scode?style=flat)
+
 ## Testing and Debugging
 
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector) - Official visual testing tool for MCP servers. Debug connections, test tools, and validate server responses interactively. ![GitHub Repo stars](https://img.shields.io/github/stars/modelcontextprotocol/inspector?style=flat)
